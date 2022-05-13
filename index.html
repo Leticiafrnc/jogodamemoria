@@ -8,14 +8,13 @@
     <title>Jogo da Memoria</title>
 </head>
 <body>
-    <div id="teste" class="card" data-icon="1">
-        <div class="card_front">
-            <img class="icon" src="./img/arrow-left.svg" alt="">
-        </div>
-        <div class="card_back">
-            &lt/&gt;
-        </div>
-    </div>
+    <div id="gameBord"></div>
+	<div id="gameOver">
+		<div>
+			Parabéns você completou!
+		</div>
+        <button id="restart" onclick="restart()">Jogue novamente!</button>
+	</div>
 
     <script src="./script.js"></script>
 </body>
